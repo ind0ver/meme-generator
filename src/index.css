@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* display: flex; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.leftArea {
+  /* margin: auto; */
+  /* width: 25%; */
+  height: 100vh;
+  width: 25%;
+  background-color: darkturquoise;
+}
+
+.rightArea {
+  text-align: center;
+  width: 75%;
+  height: 100vh;
+  background-color:steelblue;
+}
+
+.btn-tmplt {
+  width: 75%;
+}
+
+.btn-add {
+  width: 25%;
+}
+
+.btn-added {
+  width: 75%;
+}
+
+.block-added {
+  margin-top: 2%;
+}
+
+.btn-start {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  /* position:absolute; */
+  /* top: 10%; */
+}
+
+.activity {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* .icon-down {
+  margin:auto;
+} */
+
+.leftAndRight {
+  display: flex;
+}
+
+.random-image {
+  width: 100%;
+  margin-top: -70%;
+  border: solid whitesmoke;
+  border-bottom-width: 2.5em;
+  z-index: 0;
+  position: relative;
+}
+
+.image-container {
+  margin-top: 100%;
+}
+
+.random-image:hover {
+  z-index: 50;
+}

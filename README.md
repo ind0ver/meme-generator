@@ -1,8 +1,6 @@
-# A simple counter-App using [React.js](https://reactjs.org)
+# A simple meme-generator-App using React, NodeJS and Express
 
-> **This tiny application is like adding,removing,deleting, resetting products which reflects in the total number of products into our shopping cart.**
-
-**This is a very basic app but useful to understand the React Components, states, Data Flow, parent to child etc. .**
+> **This tiny application is like stealing AI generated memes from a baby.**
 
 ## Live URL :-
 
@@ -16,9 +14,12 @@ Install node modules
 
 #### `npm install`
 
-In the project directory, you can run:
+Build the app
+
+#### `npm build`
+
+Then run:
 
 #### `npm start`
 
-Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

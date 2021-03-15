@@ -2,7 +2,7 @@ const express = require("express");
 const path = require('path');
 const memes = require('./stealMemes')
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 // Have Node serve the files for our built React app
@@ -18,6 +18,6 @@ app.get('*', (req, res) => {
   });
   
 app.listen(PORT, () => {
-    console.log(`Server listening on http://localhost:3001`);
+    console.log(`Server listening on http://localhost:${PORT}`);
 });
 

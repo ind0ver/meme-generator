@@ -4,7 +4,7 @@
 
 ## Live URL :-
 
-> [Counter App](https://obscure-waters-60500.herokuapp.com)
+> [Meme Generator App](https://meme-generator-8976.herokuapp.com/)
 
 **OR your can do the following to run in your local machine**
 

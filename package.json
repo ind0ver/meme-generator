@@ -21,12 +21,12 @@
     "typescript": "^3.4.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "npm install && npm run build",
-    "build-react": "react-scripts build",
+    "start-react": "react-scripts start",
+    "build-no": "npm install && npm run build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "node src/meme-generator/server/server.js"
+    "start": "node src/meme-generator/server/server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
